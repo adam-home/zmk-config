@@ -111,13 +111,13 @@
 //                         &trans       &trans       &trans       &trans        &trans  &trans  &trans    &trans    &trans   &trans
 //             >;
 // ------------------------------------------------------------------------------------------------------------
-// |       |      |      |       |       |      |                |      |      |       |      |       |       |
+// |       |      |      |       |       |      |                |      |      |       |      |       |  DEL  |
 // |       |GRAVE |      |       | LBRC  | RBRC |                |      |      |       |      |       |       |
 // |       | PIPE |      |       | LPAR  | RPAR |                |      |      |       |      |       |       |
 // |       |EQUAL |MINUS |       | LBKT  | RBKT |      |  |      |      |      |       |      | BSLH  |       |
 //                |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
-&trans     &trans       &trans       &trans       &trans       &trans                      &trans    &trans    &trans   &trans    &trans   &trans
+&trans     &trans       &trans       &trans       &trans       &trans                      &trans    &trans    &trans   &trans    &trans   &kp DEL
 &trans     &kp GRAVE    &trans       &trans       &kp LBRC     &kp RBRC                    &trans    &trans    &trans   &trans    &trans   &trans
 &trans     &kp PIPE     &trans       &trans       &kp LPAR     &kp RPAR                    &trans    &trans    &trans   &trans    &trans   &trans
 &trans     &kp EQUAL    &kp MINUS    &trans       &kp LBKT     &kp RBKT    &trans  &trans  &trans    &trans    &trans   &trans    &kp BSLH &trans
